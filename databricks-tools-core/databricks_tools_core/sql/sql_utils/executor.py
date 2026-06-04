@@ -193,4 +193,3 @@ class SQLExecutor:
             logger.debug(f"Canceled statement {statement_id}")
         except Exception as e:
             logger.warning(f"Failed to cancel statement {statement_id}: {e}")
-
